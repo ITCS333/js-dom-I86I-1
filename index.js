@@ -36,3 +36,12 @@ function removeElement() {
   document.getElementById("to-be-removed").remove();
 }
 
+if (typeof module !== 'undefined' && module.exports) {
+    module.exports = {
+        changeHeadingText,
+        changeBoxColor,
+        addNewItem,
+        highlightParagraph,
+        removeElement
+    };
+}
