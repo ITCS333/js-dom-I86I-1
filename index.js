@@ -35,8 +35,4 @@ function highlightParagraph() {
 function removeElement() {
   document.getElementById("to-be-removed").remove();
 }
-changeHeadingText();
-changeBoxColor();
-addNewItem();
-highlightParagraph();
-removeElement();
+
